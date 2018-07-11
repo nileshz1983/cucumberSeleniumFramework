@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="40371" started-at="2018-07-02T03:21:58Z" finished-at="2018-07-02T03:22:38Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.framework.runner.productCategory.TestProductsCountBasedOnColorRunner@9d9c55]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.framework.runner.productCategory.TestTotalNumberOfWomenDressProductRunner@1a57a3b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="40371" started-at="2018-07-02T03:21:58Z" finished-at="2018-07-02T03:22:38Z">
+      <class name="com.cucumber.framework.runner.productCategory.TestProductsCountBasedOnColorRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.framework.runner.productCategory.TestProductsCountBasedOnColorRunner@9d9c55]" name="setUpClass" is-config="true" duration-ms="347" started-at="2018-07-02T08:51:58Z" finished-at="2018-07-02T08:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.framework.runner.productCategory.TestProductsCountBasedOnColorRunner@9d9c55]" name="feature" duration-ms="24119" started-at="2018-07-02T08:51:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-07-02T08:52:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ProductCategoryPage1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.framework.runner.productCategory.TestProductsCountBasedOnColorRunner@9d9c55]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2018-07-02T08:52:22Z" finished-at="2018-07-02T08:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.framework.runner.productCategory.TestProductsCountBasedOnColorRunner -->
+      <class name="com.cucumber.framework.runner.productCategory.TestTotalNumberOfWomenDressProductRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.framework.runner.productCategory.TestTotalNumberOfWomenDressProductRunner@1a57a3b]" name="setUpClass" is-config="true" duration-ms="28" started-at="2018-07-02T08:52:22Z" finished-at="2018-07-02T08:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.framework.runner.productCategory.TestTotalNumberOfWomenDressProductRunner@1a57a3b]" name="feature" duration-ms="15758" started-at="2018-07-02T08:52:22Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-07-02T08:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ProductCategoryPage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.framework.runner.productCategory.TestTotalNumberOfWomenDressProductRunner@1a57a3b]" name="tearDownClass" is-config="true" duration-ms="7" started-at="2018-07-02T08:52:38Z" finished-at="2018-07-02T08:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.framework.runner.productCategory.TestTotalNumberOfWomenDressProductRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
